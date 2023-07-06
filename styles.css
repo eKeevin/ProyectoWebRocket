@@ -44,7 +44,9 @@ h3 {
 }
 .nav-estilo ul li a{
     font-size: 20px;
-   color: rgb(126, 209, 185);}
+   color: rgb(126, 209, 185);
+   margin-right: 4em;
+    }
 
 .nav-estilo ul li a:hover{
         background-color: rgb(83, 197, 189);
@@ -58,55 +60,36 @@ h3 {
     background-color: rgb(83, 197, 189);
     color: black;  
 }
+.nav-estilo input{
+   border-style:hidden;
+    background-color: rgb(135, 204, 209);
+     
+} 
 
-
-/*
- nav{
-        background-color: rgb(20, 69, 102);
-        padding: 10px 30px;
-        display: flex;
-        flex-direction: row;
-        
-        
+.formulario-contacto label{
+    color: rgb(36, 20, 124);
+    font-weight:bold;
 }
-        
-        nav ul{list-style:none;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-        
-        nav ul li a{text-decoration:none;
-        color: rgb(126, 209, 185);
-        font-weight: bold;
-        font-size: 20px;
-       margin: 2em;}
-       nav div{
-        margin:auto
-       }
-       
-       nav ul li a:hover{
-        background-color: rgb(26, 67, 64);
-        cursor:pointer;
-       }
-       nav div input  {
-            padding: 6px;
-            border-radius:3px;
-            border:none
+.formulario-contacto legend{
+    color: rgb(36, 20, 124);
+    font-weight:bold;
+}
+.btn-tuneado{
+    color:rgb(26, 25, 25);
+    background-color: rgb(53, 127, 155)
+    ;
+    border-color: rgb(20, 21, 21)
+}
+.btn-tuneado:hover{
+    background-color: rgb(21, 179, 39);
+    color: black;  }
 
-            
-
-         }
-       nav button {background-color: aqua;
-                    border: none;
-                    border-radius: 3px;
-                    cursor:pointer;}
-                    
-      
-    .imagenlogo{
-            width: 20em;
-            height: auto;
-    } */
+    .carousel-style{
+        display: flex;
+        width: 100%;
+        
+        
+    }
 
     .rocket-welcome{
         background-color: rgb(77, 177, 177);
@@ -149,13 +132,13 @@ h3 {
     .nueva-temp figure button{
         background-color:rgb(110, 159, 159);
         border: none;
-        color: blue;
+        color: rgb(51, 70, 50);
         padding: 6px;
         border-radius: 10px;
         margin-top: 10px;}
 
     .nueva-temp figure button:hover{
-            background-color: rgb(26, 67, 64);
+            background-color: rgb(41, 187, 107);
             cursor:pointer;
         
 
@@ -318,7 +301,11 @@ h3 {
              width: 100%;
              align-items:center;
         }
+ .nav-estilo img{
+            width: 15em;
+            border-radius: 10px;}
 }
+   
 
  @media (width < 400px){
 
@@ -372,4 +359,8 @@ h3 {
                 width: 100%;
                 align-items:center;
         }
-        }
+        
+.nav-estilo img{
+            width: 15em;
+            border-radius: 10px;}
+}
