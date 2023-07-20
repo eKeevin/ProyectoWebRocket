@@ -1,0 +1,82 @@
+.grid{
+    width: 99%;
+    display:grid;
+}
+
+.modos {
+    display:grid;
+     grid-template-columns:repeat(2,1fr);
+     grid-template-rows: repeat(3,2fr);
+     grid-template-areas:  
+    "unovsuno unovsuno"
+    "dosvsdos tresvstres"
+    "dosvsdos cuatrovscuatro";
+        .modo1{
+        grid-area:unovsuno;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        padding: 30px;
+            img
+            {width: 40%;
+            border-radius: 10px;}
+    
+            p{
+            padding-left: 1em;
+            width: 50%;
+            color: rgb(80, 61, 159);
+            font-size: $textMD;}
+        } 
+        .modo2{
+        grid-area: dosvsdos;
+        display: flex;
+        flex-direction:column;
+        justify-content: left;
+        align-items: left;
+        padding: 30px;
+            img
+            {width: 100%;
+            border-radius: 10px;}
+             p{
+            padding-top: 10px;
+            width:100%;
+            color: rgb(80, 61, 159);
+            font-size: $textMD;}
+    }
+        .modo3{
+        grid-area: tresvstres;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;  
+            img {
+            width: 100%;
+            border-radius: 10px;
+        }
+            p{
+            padding-top: 10px;
+            width:100%;
+            color: rgb(80, 61, 159);
+            font-size: $textMD
+        }
+    }
+        .modo4{ 
+        grid-area: cuatrovscuatro;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+            img{
+            width: 100%;
+            border-radius: 10px;}
+            p{
+            padding-top: 10px;
+            width:100%;
+            color: rgb(80, 61, 159);
+            font-size: $textMD;
+            }
+        }
+    }

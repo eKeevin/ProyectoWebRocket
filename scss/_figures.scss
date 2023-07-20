@@ -1,0 +1,38 @@
+.nueva-temp  
+    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+       
+    figure{
+        width: 24%;
+        padding: 1em;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        border-radius: 10px;
+
+         img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        figcaption{
+            font-weight:$textBold;
+            font-size:30px;
+            color:rgb(41, 130, 100);
+        }
+        button{
+            background-color:$liColor;
+            border: none;
+            color: rgb(51, 70, 50);
+            padding: 6px;
+            border-radius: 10px;
+            margin-top: 10px;
+            &:hover{
+                background-color: rgb(41, 187, 107);
+                cursor:pointer;
+            }
+    }
+}
+}

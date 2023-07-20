@@ -1,0 +1,87 @@
+$mainFont:'Lato', sans-serif;
+
+body{
+    background-image:url(../img/backkkk.jpg);
+    background-repeat:round;
+    background-attachment:fixed;
+}
+
+    h1{
+        color: $textColor;
+        font-size: $textXL;
+        text-align: center;
+        margin: 20px
+
+    }
+
+h2, h3{
+        color: $textColor;
+        font-size: $textMD;
+        text-align: center;
+    }
+
+.main-img{
+        width: 100%;}
+
+.rocket-welcome{
+            background-color:$liColor;
+            width: 50%;
+            height: auto;
+            margin: auto;
+            padding: 10px 20px;
+            display: flex;
+
+                p{
+                color:$textColor;
+                font-weight:$textReg;
+                font-size:$textMD;
+                }
+}
+
+     //----footer----//
+
+footer{
+        background-color: $bgColor;
+        padding: 10px 30px;
+        display:flex;
+        flex-direction: row;
+        align-items:center ;
+        justify-content: space-between;
+            ul{
+                list-style:none;
+                display:flex;
+                flex-direction: column;
+                color: $liColor;
+            
+                li  
+                    {&:hover{
+                    background-color:$liColor;
+                    cursor:pointer;
+                    color: black;}
+                }
+            }
+            svg {
+            fill: aqua;
+            margin-left: 10px;}
+ }
+        
+        
+//......form.......//
+.formulario-contacto label{
+    color: rgb(36, 20, 124);
+    font-weight:bold;
+    legend{
+        color: rgb(36, 20, 124);
+        font-weight:bold;
+    }
+}
+.btn-tuneado{
+    color:rgb(26, 25, 25);
+    background-color: rgb(53, 127, 155)
+    ;
+    border-color: rgb(20, 21, 21);
+    &:hover{
+        background-color: rgb(21, 179, 39);
+        color: black;  }
+}
+

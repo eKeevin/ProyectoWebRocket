@@ -1,0 +1,31 @@
+.nav-estilo{
+    background-color:$bgColor;
+
+     img{
+        width: 20em;
+        border-radius: 10px;}
+    ul li a{
+        font-size:20px;
+        color:$liColor;
+        margin-right: 4em;
+
+        &:hover{
+            background-color:$liColor;
+            cursor: pointer; //ver
+    }
+
+}
+button{
+    color:$liColor;
+    border-color:$liColor;
+    &:hover{
+        background-color:$liColor;
+        color: black;
+
+            }
+        }
+        input{
+            border-style:hidden;
+            background-color: (135, 204, 209);
+        }
+    }

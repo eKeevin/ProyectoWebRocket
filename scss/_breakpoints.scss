@@ -1,0 +1,97 @@
+@media (width < 780px)
+{
+    .rocket-welcome{
+    width: 100%;}
+    .modos {
+         grid-template-columns:1fr;
+         grid-template-rows: repeat(4,30%);
+         grid-template-areas:  
+        "unovsuno"
+        "dosvsdos"
+        "tresvstres"
+        "cuatrovscuatro";
+
+        .modo1{
+            flex-direction: column;
+            justify-content:left ;
+            align-items: left;
+            
+            img
+            {width: 100%;}
+            p{
+                width: 100%;
+                padding-left:0;
+            }
+        }}
+        .nueva-temp{
+            flex-direction: column;
+            align-items:center;
+                 figure{
+                    width: 100%;
+                    align-items:center;}
+}
+}
+
+
+
+
+@media (width < 400px){
+
+     .rocket-welcome p {
+         color: rgb(40, 37, 101);
+         font-weight:100;
+         font-size: 20px;}
+
+    h1, h2, h3 {
+        font-size: 20px;
+        font-weight:bold
+    }
+    .modos .modo1 {
+        padding: 10px; 
+        img
+        {width: 100%
+        }
+        p{
+        font-size: 20px
+        }
+    }
+
+    }
+    .modos .modo2{
+        padding: 10px; 
+        img{
+            width: 100%
+        }
+        p{
+            font-size: 20px
+        }
+    }
+    .modos .modo3{
+         padding: 10px; 
+         img
+         {width: 100%}
+        p{
+            font-size: 20px}
+        }
+    .modos .modo4{
+        padding: 10px;}
+        img
+        {width: 100%}
+        p{
+         font-size: 20px}
+
+        
+
+
+.nueva-temp{
+    flex-direction: column;
+    align-items:center;
+    figure{
+        width: 100%;
+        align-items:center;
+    }
+}
+    
+.nav-estilo img{
+        width: 15em;
+        border-radius: 10px;}
