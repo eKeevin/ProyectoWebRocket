@@ -21,7 +21,8 @@ h2, h3{
     }
 
 .main-img{
-        width: 100%;}
+        width: 100%;
+    padding-top: 20px;}
 
 .rocket-welcome{
             background-color:$liColor;
@@ -37,6 +38,39 @@ h2, h3{
                 font-size:$textMD;
                 }
 }
+
+.button-404{
+    background-color:$liColor;
+    border: none;
+    color: rgb(51, 70, 50);
+    padding: 6px;
+    border-radius: 10px;
+    margin-top: 10px;
+    &:hover{
+        background-color: rgb(41, 187, 107);
+        cursor:pointer;
+    }
+
+.p-nueva-temp{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    width: 90%;
+    margin: auto;
+    height:auto;
+    background-color: $liColor;
+    padding-left: 10px;
+    
+    
+    p{
+        padding: 10px;
+        text-align: left;
+        font-size: $textMD;
+        font-weight: $textLite;
+        color: $textColor;
+    }
+    
+}}
 
      //----footer----//
 
@@ -57,9 +91,12 @@ footer{
                     {&:hover{
                     background-color:$liColor;
                     cursor:pointer;
-                    color: black;}
+                    }
                 }
+                    a{text-decoration: none;
+                    color:aqua}
             }
+
             svg {
             fill: aqua;
             margin-left: 10px;}
@@ -83,5 +120,48 @@ footer{
     &:hover{
         background-color: rgb(21, 179, 39);
         color: black;  }
+    display: flex;
+    margin-left: 35em;
+    
 }
 
+
+
+    .img-404{
+    width:50%; 
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-left: 8em;
+    padding-top: 2em;
+     
+        img{
+            border-radius: 20px;
+        }
+    } 
+
+    .cards-coches {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 6px;
+        padding-right: 6px;
+
+
+        .card-body{
+            background-color: aquamarine;
+        }
+        .card-text{
+            text-align: center;
+        }
+    
+        .transform:hover{
+            transform: translate(-10px, -10px);
+            cursor: pointer;
+            transition: all 1s}
+    
+    }

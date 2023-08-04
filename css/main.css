@@ -19,6 +19,7 @@ h2, h3 {
 
 .main-img {
   width: 100%;
+  padding-top: 20px;
 }
 
 .rocket-welcome {
@@ -33,6 +34,36 @@ h2, h3 {
   color: rgb(36, 20, 124);
   font-weight: 500;
   font-size: 2em;
+}
+
+.button-404 {
+  background-color: rgb(126, 209, 185);
+  border: none;
+  color: rgb(51, 70, 50);
+  padding: 6px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.button-404:hover {
+  background-color: rgb(41, 187, 107);
+  cursor: pointer;
+}
+.button-404 .p-nueva-temp {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 90%;
+  margin: auto;
+  height: auto;
+  background-color: rgb(126, 209, 185);
+  padding-left: 10px;
+}
+.button-404 .p-nueva-temp p {
+  padding: 10px;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 300;
+  color: rgb(36, 20, 124);
 }
 
 footer {
@@ -52,7 +83,10 @@ footer ul {
 footer ul li:hover {
   background-color: rgb(126, 209, 185);
   cursor: pointer;
-  color: black;
+}
+footer ul a {
+  text-decoration: none;
+  color: aqua;
 }
 footer svg {
   fill: aqua;
@@ -72,18 +106,57 @@ footer svg {
   color: rgb(26, 25, 25);
   background-color: rgb(53, 127, 155);
   border-color: rgb(20, 21, 21);
+  display: flex;
+  margin-left: 35em;
 }
 .btn-tuneado:hover {
   background-color: rgb(21, 179, 39);
   color: black;
 }
 
-.nueva-temp {
+.img-404 {
+  width: 50%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 8em;
+  padding-top: 2em;
+}
+.img-404 img {
+  border-radius: 20px;
+}
+
+.cards-coches {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.cards-coches .card-body {
+  background-color: aquamarine;
+}
+.cards-coches .card-text {
+  text-align: center;
+}
+.cards-coches .transform:hover {
+  transform: translate(-10px, -10px);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.nueva-temporada {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.nueva-temp figure {
+
+figure {
   width: 24%;
   padding: 1em;
   display: flex;
@@ -92,16 +165,16 @@ footer svg {
   justify-content: center;
   border-radius: 10px;
 }
-.nueva-temp figure img {
+figure img {
   width: 100%;
   border-radius: 10px;
 }
-.nueva-temp figure figcaption {
+figure figcaption {
   font-weight: 600;
   font-size: 30px;
   color: rgb(41, 130, 100);
 }
-.nueva-temp figure button {
+figure button {
   background-color: rgb(126, 209, 185);
   border: none;
   color: rgb(51, 70, 50);
@@ -109,7 +182,7 @@ footer svg {
   border-radius: 10px;
   margin-top: 10px;
 }
-.nueva-temp figure button:hover {
+figure button:hover {
   background-color: rgb(41, 187, 107);
   cursor: pointer;
 }
@@ -231,6 +304,9 @@ footer svg {
   .rocket-welcome {
     width: 100%;
   }
+  .rocket-welcome p {
+    font-size: 1em;
+  }
   .modos {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 30%);
@@ -256,12 +332,27 @@ footer svg {
     width: 100%;
     align-items: center;
   }
+  .p-nueva-temp {
+    width: 100%;
+  }
+  .p-nueva-temp p {
+    font-size: 2em;
+  }
+  .img-404 {
+    width: 100%;
+    padding-left: 0em;
+  }
+  .cards-coches {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 @media (width < 400px) {
   .rocket-welcome p {
     color: rgb(40, 37, 101);
     font-weight: 100;
-    font-size: 20px;
+    font-size: 1em;
   }
   h1, h2, h3 {
     font-size: 20px;
@@ -274,7 +365,7 @@ footer svg {
     width: 100%;
   }
   .modos .modo1 p {
-    font-size: 20px;
+    font-size: 1em;
   }
 }
 .modos .modo2 {
@@ -309,18 +400,33 @@ p {
   font-size: 20px;
 }
 
-.nueva-temp {
+.nueva-temporadaa {
   flex-direction: column;
   align-items: center;
 }
-.nueva-temp figure {
+.nueva-temporadaa figure {
   width: 100%;
   align-items: center;
 }
 
-.nav-estilo img {
+.p-nueva-temp {
+  width: 100%;
+}
+.p-nueva-temp p {
+  font-size: 1em;
+}
+.p-nueva-temp .nav-estilo img {
   width: 15em;
   border-radius: 10px;
+}
+.p-nueva-temp .img-404 {
+  width: 100%;
+  padding-left: 0em;
+}
+.p-nueva-temp .cards-coches {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
