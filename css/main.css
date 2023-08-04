@@ -347,8 +347,16 @@ figure button:hover {
     flex-direction: column;
     width: 100%;
   }
+  .nueva-temporada {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nueva-temporada figure {
+    width: 100%;
+    align-items: center;
+  }
 }
-@media (width < 400px) {
+@media (width < 780px) and (width < 400px) {
   .rocket-welcome p {
     color: rgb(40, 37, 101);
     font-weight: 100;
@@ -365,68 +373,64 @@ figure button:hover {
     width: 100%;
   }
   .modos .modo1 p {
-    font-size: 1em;
+    font-size: 15;
   }
 }
-.modos .modo2 {
-  padding: 10px;
-}
-.modos .modo2 img {
-  width: 100%;
-}
-.modos .modo2 p {
-  font-size: 20px;
-}
-
-.modos .modo3 {
-  padding: 10px;
-}
-.modos .modo3 img {
-  width: 100%;
-}
-.modos .modo3 p {
-  font-size: 20px;
-}
-
-.modos .modo4 {
-  padding: 10px;
-}
-
-img {
-  width: 100%;
-}
-
-p {
-  font-size: 20px;
-}
-
-.nueva-temporadaa {
-  flex-direction: column;
-  align-items: center;
-}
-.nueva-temporadaa figure {
-  width: 100%;
-  align-items: center;
-}
-
-.p-nueva-temp {
-  width: 100%;
-}
-.p-nueva-temp p {
-  font-size: 1em;
-}
-.p-nueva-temp .nav-estilo img {
-  width: 15em;
-  border-radius: 10px;
-}
-.p-nueva-temp .img-404 {
-  width: 100%;
-  padding-left: 0em;
-}
-.p-nueva-temp .cards-coches {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+@media (width < 780px) {
+  .modos .modo2 {
+    padding: 10px;
+  }
+  .modos .modo2 img {
+    width: 100%;
+  }
+  .modos .modo2 p {
+    font-size: 15px;
+  }
+  .modos .modo3 {
+    padding: 10px;
+  }
+  .modos .modo3 img {
+    width: 100%;
+  }
+  .modos .modo3 p {
+    font-size: 15px;
+  }
+  .modos .modo4 {
+    padding: 10px;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    font-size: 15px;
+  }
+  .nueva-temporada {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nueva-temporada figure {
+    width: 100%;
+    align-items: center;
+  }
+  .p-nueva-temp {
+    width: 100%;
+  }
+  .p-nueva-temp p {
+    font-size: 1em;
+  }
+  .p-nueva-temp .nav-estilo img {
+    width: 15em;
+    border-radius: 10px;
+  }
+  .p-nueva-temp .img-404 {
+    width: 100%;
+    padding-left: 0em;
+  }
+  .p-nueva-temp .cards-coches {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
